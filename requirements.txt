@@ -1,0 +1,10 @@
+numpy==1.20.1
+Pillow==8.1.1
+requests==2.25.1
+pymongo==3.11.3
+Flask==2.3.2
+pytest==6.2.2
+psycopg2==2.9.2
+loguru==0.7.0
+flake8
+python-dotenv

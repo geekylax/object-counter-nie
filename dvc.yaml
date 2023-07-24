@@ -1,0 +1,21 @@
+stages:
+  train:
+    cmd: python yolo_train/train.py
+    deps:
+    - images
+    - yolo_train/train.py
+    - yolo_train/utils.py
+    - params.yaml
+    outs:
+    - models/model.pt
+    - reports/train_params.yaml:
+        cache: false
+    metrics:
+    - reports/train_metrics.csv:
+        cache: false
+  test:
+    cmd: python yolo_train/predict.py
+    deps:
+      - images
+      - models/model.pt
+      - yolo_train/predict.py

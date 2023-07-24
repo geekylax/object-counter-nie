@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_USER: count_user
+      POSTGRES_PASSWORD: notsosecretpassword
+      POSTGRES_DB: count_db
+    ports:
+      - "5432:5432"
+    volumes: 
+      # copy the sql script to create tables
+      - ./db/db.sql:/docker-entrypoint-initdb.d/create_tables.sql

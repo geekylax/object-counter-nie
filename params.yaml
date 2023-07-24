@@ -1,0 +1,14 @@
+#### TO SAVE IMAGES INFERENCING
+
+images_folder: "images"
+
+### For runing host and port flask app
+BASE_URL: 'http://127.0.0.1:5000'
+
+
+# tensorflow js url for infernceing
+
+TFS_HOST: "localhost"
+TFS_PORT: "8501"
+
+coco_label: 'counter/adapters/mscoco_label_map.json'
