@@ -1,0 +1,380 @@
+[2023-07-23T08:26:28] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T08:26:28] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T08:26:28] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T08:26:29] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T08:26:29] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T08:27:20] ERROR [root.object_detection:48] Invalid threshold value. Please provide a float value between 0.0 and 1.0.
+[2023-07-23T08:27:20] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 08:27:20] "[31m[1mPOST /object-count HTTP/1.1[0m" 400 -
+[2023-07-23T08:28:05] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T08:28:05] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T08:29:31] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T08:29:31] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T08:29:31] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T08:29:31] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T08:29:31] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T08:29:34] ERROR [root.object_detection:50] Invalid threshold value. Please provide a float value between 0.0 and 1.0.
+[2023-07-23T08:29:34] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 08:29:34] "[31m[1mPOST /object-count HTTP/1.1[0m" 400 -
+[2023-07-23T08:29:47] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T08:29:47] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T08:29:47] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T08:29:47] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T08:30:15] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T08:30:15] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:03:09] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T09:03:09] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T09:03:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:03:09] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:03:09] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:03:27] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:03:32] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:03:32] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:03:32] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:03:42] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:03:42] "[35m[1mPOST /object-count HTTP/1.1[0m" 500 -
+[2023-07-23T09:04:49] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:04:49] "[35m[1mPOST /object-count HTTP/1.1[0m" 500 -
+[2023-07-23T09:05:01] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:05:03] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:05:03] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:05:03] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:05:06] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:05:06] "[35m[1mPOST /object-count HTTP/1.1[0m" 500 -
+[2023-07-23T09:05:44] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T09:05:44] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:05:45] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:05:45] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:05:47] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T09:05:47] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:05:48] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:05:48] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:05:48] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:05:49] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:05:49] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:05:49] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:05:49] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:05:49] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:05:49] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T09:07:26] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T09:07:26] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:08:36] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T09:08:36] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T09:08:36] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:08:37] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:08:37] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:08:40] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:08:41] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:08:41] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:08:41] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:08:41] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:08:41] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:08:41] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T09:08:46] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:08:47] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:08:47] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:08:47] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:18:09] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T09:18:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:38:29] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T09:38:29] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T09:38:29] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:38:30] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:38:30] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:38:50] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:38:50] "[31m[1mPOST /object-count HTTP/1.1[0m" 400 -
+[2023-07-23T09:38:50] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:38:55] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:38:55] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:38:55] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:39:22] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:39:23] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:39:23] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:39:23] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:39:26] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:39:26] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:39:27] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:39:27] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:39:34] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:39:34] "[31m[1mPOST /object-count HTTP/1.1[0m" 400 -
+[2023-07-23T09:39:34] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:39:36] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:39:36] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:39:36] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:42:07] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:42:07] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:42:08] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:42:08] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:42:09] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:42:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:42:10] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:42:10] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:43:58] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:43:58] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:43:58] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:43:58] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:44:07] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:44:07] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:44:07] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:44:07] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:44:11] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:44:12] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:44:12] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:12] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:12] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:12] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:44:12] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T09:44:14] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:44:15] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:44:15] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:44:15] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:44:34] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:44:35] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:44:35] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:44:35] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:44:38] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:44:38] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:44:39] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:44:39] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:44:42] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:44:43] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:44:43] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:43] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:43] INFO [root.update_values:91] Query Commited
+[2023-07-23T09:44:43] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:44:43] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T09:44:46] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T09:44:47] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3592
+[2023-07-23T09:44:47] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 09:44:47] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T09:44:49] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:44:49] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:44:50] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:44:50] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T09:44:51] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\tests\\domain\\api_testing.py', reloading
+[2023-07-23T09:44:51] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T09:44:52] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T09:44:52] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:21:55] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:21:55] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:21:55] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:21:56] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:21:56] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:22:23] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:22:23] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:22:23] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:22:24] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:22:24] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:23:07] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:23:07] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:23:07] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:23:07] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:23:07] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:23:45] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:23:45] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T21:48:45] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:48:45] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T21:49:06] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:49:06] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:49:06] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:49:07] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:49:07] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:49:09] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:49:09] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T21:49:14] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:49:14] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T21:51:01] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:51:01] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:51:01] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:51:02] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:51:02] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:51:04] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T21:51:09] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T21:51:09] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:09] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:09] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:09] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:51:09] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T21:51:46] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T21:51:46] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T21:51:46] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:51:47] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:51:47] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:51:49] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T21:51:50] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T21:51:50] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:50] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:50] INFO [root.update_values:91] Query Commited
+[2023-07-23T21:51:50] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:51:50] "POST /object-count HTTP/1.1" 200 -
+[2023-07-23T21:51:55] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T21:51:56] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T21:51:56] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:51:56] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T21:52:42] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:52:42] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:52:42] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:52:42] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:52:45] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:52:45] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:52:45] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:52:45] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:52:51] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:52:51] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:52:52] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:52:52] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:53:00] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:53:00] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:53:01] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:53:01] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:53:05] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:53:05] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:53:06] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:53:06] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:53:11] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:53:11] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:53:12] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:53:12] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:53:25] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:53:25] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:53:26] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:53:26] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T21:53:43] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T21:53:44] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T21:53:44] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 21:53:44] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T21:54:52] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T21:54:52] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T21:54:53] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T21:54:53] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:01:18] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\domain\\actions.py', reloading
+[2023-07-23T22:01:18] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:15:00] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T22:15:00] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T22:15:00] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:15:00] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:15:00] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:15:05] INFO [root.detected_object_list:90] Failed to process the image. Please ensure it is a valid image file
+[2023-07-23T22:15:05] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 22:15:05] "[31m[1mPOST /object-list HTTP/1.1[0m" 400 -
+[2023-07-23T22:16:09] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T22:16:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:16:10] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:16:10] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:16:11] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T22:16:11] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:16:12] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:16:12] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:16:14] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 22:16:14] "[35m[1mPOST /object-list HTTP/1.1[0m" 500 -
+[2023-07-23T22:16:35] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 22:16:35] "[35m[1mPOST /object-list HTTP/1.1[0m" 500 -
+[2023-07-23T22:17:53] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\adapters\\object_detector.py', reloading
+[2023-07-23T22:17:53] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:20:17] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T22:20:17] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T22:20:17] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:20:18] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:20:18] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:20:21] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T22:20:23] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T22:20:23] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 22:20:23] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T22:20:35] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\entrypoints\\webapp.py', reloading
+[2023-07-23T22:20:35] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:20:38] INFO [werkzeug._log:187] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.10.98:5000
+[2023-07-23T22:20:38] INFO [werkzeug._log:187] [33mPress CTRL+C to quit[0m
+[2023-07-23T22:20:38] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:20:39] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:20:39] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:20:41] DEBUG [urllib3.connectionpool._new_conn:245] Starting new HTTP connection (1): localhost:8501
+[2023-07-23T22:20:42] DEBUG [urllib3.connectionpool._make_request:473] http://localhost:8501 "POST /v1/models/rfcn:predict HTTP/1.1" 200 3691
+[2023-07-23T22:20:42] INFO [werkzeug._log:187] 127.0.0.1 - - [23/Jul/2023 22:20:42] "POST /object-list HTTP/1.1" 200 -
+[2023-07-23T22:21:53] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\counter\\adapters\\object_detector.py', reloading
+[2023-07-23T22:21:53] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:21:54] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:21:54] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:46:55] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:46:55] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:46:56] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:46:56] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:02] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:02] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:03] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:03] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:04] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:04] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:04] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:04] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:06] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:06] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:07] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:07] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:09] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:10] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:10] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:11] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:11] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:12] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:12] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:28] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:28] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:29] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:29] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:38] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:38] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:39] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:39] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:46] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:46] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:47] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:47] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:51] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:51] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:52] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:52] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:54] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:54] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:54] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:54] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:55] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:56] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:56] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:56] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:47:58] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:47:58] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:47:59] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:47:59] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:48:01] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:48:01] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:48:02] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:48:02] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:48:03] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:48:03] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:48:04] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:48:04] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:48:08] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\train.py', reloading
+[2023-07-23T22:48:08] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:48:08] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:48:08] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:48:42] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\utils.py', reloading
+[2023-07-23T22:48:42] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:48:42] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:48:42] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
+[2023-07-23T22:51:09] INFO [werkzeug._log:187]  * Detected change in 'C:\\Users\\Anicca\\Pictures\\object-counter\\yolo_train\\predict.py', reloading
+[2023-07-23T22:51:09] INFO [werkzeug._log:187]  * Restarting with stat
+[2023-07-23T22:51:10] WARNING [werkzeug._log:187]  * Debugger is active!
+[2023-07-23T22:51:10] INFO [werkzeug._log:187]  * Debugger PIN: 975-631-805
