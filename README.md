@@ -6,6 +6,7 @@ The model used in this example has been taken from
 [IntelAI](https://github.com/IntelAI/models/blob/master/docs/object_detection/tensorflow_serving/Tutorial.md)
 
 ## Project organisation 
+```bash
 .env
 .gitattributes
 .gitignore
@@ -71,6 +72,7 @@ yolo_train
    |-- train.py
    |-- utils.py
 
+```
 
 ## Download the model
 ```
