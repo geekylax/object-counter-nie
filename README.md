@@ -6,90 +6,70 @@ The model used in this example has been taken from
 [IntelAI](https://github.com/IntelAI/models/blob/master/docs/object_detection/tensorflow_serving/Tutorial.md)
 
 ## Project organisation 
-
-
-ª   .env                                        
-ª   assesment.md                                
-ª   docker-compose.yml                          
-ª   dvc.yaml                                   
-ª   makefile                                    
-ª   params.yaml                                
-ª   README.md                                  
-ª   requirements.txt                           
-ª   requirements_train.txt
-ª   test.txt
-ª   tox.ini
-ª   train_params.yaml
-+---counter
-ª   ª   config.py
-ª   ª   debug.py
-ª   ª   loggers.py
-ª   ª   __init__.py
-ª   ª   
-ª   +---adapters
-ª   ª   ª   count_repo.py
-ª   ª   ª   mscoco_label_map.json
-ª   ª   ª   object_detector.py
-ª   ª   ª   __init__.py
-ª   ª   ª   
-ª   ª           
-ª   +---domain
-ª   ª   ª   actions.py
-ª   ª   ª   models.py
-ª   ª   ª   ports.py
-ª   ª   ª   predictions.py
-ª   ª   ª   __init__.py
-ª   +---entrypoints
-ª   ª   ª   main.py
-ª   ª   ª   webapp.py
-ª   ª   ª   __init__.py
-ª   ª           
-ª   +---resources
-ª   ª       arial.ttf
-ª   ª       
-+---db
-ª       db.sql
-ª       
-+---images
-ª       image_20230723_215344_3389_0.9.jpg
-ª       image_20230723_222023_2641_0.9.jpg
-ª       image_20230723_222042_8025_0.9.jpg
-ª       
-+---log
-ª       2023-07-23.log
-ª       
-+---reports
-+---resources
-ª   +---images
-ª           boy.jpg
-ª           cat.jpg
-ª           food.jpg
-ª           test.jpg
-ª           
-+---tests
-ª   ª   __init__.py
-ª   ª   
-ª   +---domain
-ª   ª   ª   api_test.py
-ª   ª   ª   helpers.py
-ª   ª   ª   test_actions.py
-ª   ª   ª   test_predictions.py
-ª   ª   ª   __init__.py
-+---tmp
-ª   +---debug
-ª   ª       all_predictions.jpg
-ª   ª       valid_predictions_with_threshold_0.5.jpg
-ª   ª       valid_predictions_with_threshold_0.9.jpg
-ª   ª       
-ª   +---model
-ª       +---1
-ª               saved_model.pb
-ª               
-+---yolo_train
-        predict.py
-        train.py
-        utils.py
-        
+.env
+.gitattributes
+.gitignore
+README.md
+assesment.md
+counter
+   |-- __init__.py
+   |-- adapters
+   |   |-- __init__.py
+   |   |-- count_repo.py
+   |   |-- mscoco_label_map.json
+   |   |-- object_detector.py
+   |-- config.py
+   |-- debug.py
+   |-- domain
+   |   |-- __init__.py
+   |   |-- actions.py
+   |   |-- models.py
+   |   |-- ports.py
+   |   |-- predictions.py
+   |-- entrypoints
+   |   |-- __init__.py
+   |   |-- main.py
+   |   |-- webapp.py
+   |-- loggers.py
+   |-- resources
+   |   |-- arial.ttf
+db
+   |-- db.sql
+docker-compose.yml
+dvc.yaml
+images
+   |-- image_20230723_215344_3389_0.9.jpg
+   |-- image_20230723_222023_2641_0.9.jpg
+   |-- image_20230723_222042_8025_0.9.jpg
+log
+   |-- 2023-07-23.log
+makefile
+params.yaml
+requirements.txt
+requirements_train.txt
+resources
+   |-- images
+   |   |-- boy.jpg
+   |   |-- cat.jpg
+   |   |-- food.jpg
+   |   |-- test.jpg
+test.txt
+tests
+   |-- __init__.py
+   |-- domain
+   |   |-- __init__.py
+   |   |-- api_test.py
+   |   |-- helpers.py
+   |   |-- test_actions.py
+   |   |-- test_predictions.py
+tmp
+   |-- .gitignore
+tox.ini
+train_params.yaml
+yolo_train
+   |-- predict.py
+   |-- train.py
+   |-- utils.py
 
 
 ## Download the model
